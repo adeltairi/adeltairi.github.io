@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Kontakt | TravelMore</title>
+            <link href="cssdokument.css" rel="stylesheet" type="text/css"/>
+    </head>
+      <body class="pozadina">         <header class="glavna2">
+        <div class="logo">TravelMore</div>
+             <nav>
+                <ul class="linkovi">
+                    <li><a href="index.html" class="current">Početna</a></li>
+                    <li><a href="rezervacija.html">Kako rezervisati</a></li>
+                </ul>
+             </nav>
+           </header>
+           <div class="jedandodrugog">
+           <div class="forma">
+            <h4 class="Naslov">Kontaktiraj nas</h4>
+            <form action="kontakt.html" method="post">
+                <p>Ime i prezime:<input type="text" name="ime i prezime">
+                <p>E-mail:<input type="email" name="email">
+                <p>Broj telefona:<input type="text" name="phone">
+                <p>Destinacije:<select name="select" size="1" id="select">
+                    <option select="selected" value="1">Santorini</option>
+                    <option value="2">Pariz</option>
+                    <option value="3">Rim</option>
+                    <option value="4">Beč</option>
+                    <option value="5">Istanbul</option>
+                    <option value="6">Kopaonik</option>
+                </select>
+                <p>Poruka:<textarea name="poruka"></textarea>
+                <button type="submit">Pošalji</button>
+            </form>
+           </div>
+            <div class="tabela">
+                <h5 class="Naslov">Pregled putovanja</h5>
+                 <table border="1px" cellspacing="2" cellpadding="0" style="width: 40%">
+                    <tr><th>Destinacije</th><th>Trajanje</th><th>Prevoz</th><th>Cena</th></tr>
+                    <tr><th>Santorini</th><td>7 dana</td><td>Avion</td><td>270€</td></tr>
+                    <tr><th>Pariz</th><td>4 dana</td><td>Avion</td><td>220€</td></tr>
+                    <tr><th>Rim</th><td>5 dana</td><td>Avion</td><td>350€</td></tr>
+                    <tr><th>Beč</th><td>4 dana</td><td>Autobus</td><td>180€</td></tr>
+                    <tr><th>Istanbul</th><td>7 dana</td><td>Avion</td><td>200€</td></tr>
+                    <tr><th>Kopaonik</th><td>4 dana</td><td>Autobus</td><td>120€</td></tr>
+                 </table>
+            </div>
+           </div>
+            <footer> &copy;2025 TravelMore</footer>
+      </body>
+</html>
