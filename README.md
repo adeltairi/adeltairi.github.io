@@ -1,1 +1,0 @@
-# adeltairi.github.io
